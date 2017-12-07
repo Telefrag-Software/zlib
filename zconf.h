@@ -13,6 +13,9 @@
 #include "wx/setup.h"
 #endif
 
+/* wxWidgets always uses custom prefix to avoid conflicts. */
+#define Z_PREFIX_ wx_zlib_
+
 /*
  * Defining custom Z_PREFIX_ implies using Z_PREFIX.
  */
